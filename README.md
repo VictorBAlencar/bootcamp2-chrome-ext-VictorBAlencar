@@ -11,9 +11,6 @@ Este projeto foi desenvolvido como parte do Desafio Inicial do Bootcamp II.
 
 ## 🚀 Demonstração
 
-![Demonstração do Leitor Zen](https://i.imgur.com/example.gif) 
-
-> A página do projeto, com mais detalhes e screenshots, pode ser acessada aqui:
 > **[Visite a Landing Page](https://victorbalencar.github.io/bootcamp2-chrome-ext-VictorBAlencar/)**
 
 ---
