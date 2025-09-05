@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor Zen - Extensão para Leitura Focada</title>
+    <style>
+        /* Estilo geral da página */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        /* Container principal para centralizar o conteúdo */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        /* Botão de download principal */
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+        /* Seções de conteúdo */
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        /* Lista de instalação */
+        ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        /* Screenshots */
+        .screenshots {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .screenshots figure {
+            margin: 0;
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+        .screenshots img {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🧘 Leitor Zen</h1>
+            <p>Sua extensão para uma leitura limpa e focada na web.</p>
+            
+            <a href="https://github.com/VictorBAlencar/bootcamp2-chrome-ext-VictorBAlencar/releases" class="cta-button">Baixar Extensão (.zip)</a>
+        </header>
+
+        <section>
+            <h2>Veja a Mágica Acontecer</h2>
+            <p>Com um único clique, transforme artigos poluídos em um oásis de tranquilidade para seus olhos.</p>
+            <div class="screenshots">
+                <figure>
+                    <figcaption><b>Antes</b></figcaption>
+                    <img src="images/screenshot-antes.png" alt="Página de artigo antes do Leitor Zen">
+                </figure>
+                <figure>
+                    <figcaption><b>Depois</b></figcaption>
+                    <img src="images/screenshot-depois.png" alt="Página de artigo com Leitor Zen ativado">
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Instalação Manual</h2>
+            <ol>
+                <li>Baixe e descompacte o arquivo <strong>.zip</strong> da seção de Releases.</li>
+                <li>Abra o Google Chrome e acesse <code>chrome://extensions</code>.</li>
+                <li>Ative o <strong>"Modo de desenvolvedor"</strong> no canto superior direito.</li>
+                <li>Clique em <strong>"Carregar sem compactação"</strong> e selecione a pasta que você descompactou.</li>
+                <li>Pronto! O ícone do Leitor Zen aparecerá na sua barra de extensões.</li>
+            </ol>
+        </section>
+
+        <footer>
+            <p>Projeto desenvolvido para o Bootcamp II. <a href="https://github.com/VictorBAlencar/bootcamp2-chrome-ext-VictorBAlencar">Veja o código no GitHub</a>.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
