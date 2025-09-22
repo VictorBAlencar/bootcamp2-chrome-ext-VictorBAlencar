@@ -1,4 +1,3 @@
-# bootcamp2-chrome-ext-VictorBAlencar
 # Leitor Zen
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -61,6 +60,6 @@ bootcamp2-chrome-ext-VictorBAlencar/
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
