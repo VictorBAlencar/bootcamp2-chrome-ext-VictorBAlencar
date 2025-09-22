@@ -1,21 +1,19 @@
 # bootcamp2-chrome-ext-VictorBAlencar
-# 🧘 Leitor Zen
+# Leitor Zen
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Extensão para Google Chrome (Manifest V3) que limpa a poluição visual de artigos e posts de blog, proporcionando uma experiência de leitura limpa, focada e sem distrações.
 
-Este projeto foi desenvolvido como parte do Desafio Inicial do Bootcamp II.
-
 ---
 
-## 🚀 Demonstração
+## Demonstração
 
 > **[Visite a Landing Page](https://victorbalencar.github.io/bootcamp2-chrome-ext-VictorBAlencar/)**
 
 ---
 
-## ✨ Recursos
+## Recursos
 
 -   **Limpeza com um clique**: Ative o modo de leitura focado a partir de um popup simples.
 -   **Foco total no conteúdo**: Remove cabeçalhos, rodapés, barras laterais, anúncios e outros elementos que distraem.
@@ -24,7 +22,7 @@ Este projeto foi desenvolvido como parte do Desafio Inicial do Bootcamp II.
 
 ---
 
-## 🛠️ Instalação Manual
+## Instalação Manual
 
 Como esta extensão não está na Chrome Web Store, ela pode ser instalada manualmente no modo de desenvolvedor:
 
@@ -37,12 +35,12 @@ Como esta extensão não está na Chrome Web Store, ela pode ser instalada manua
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 O repositório está organizado da seguinte forma para seguir as boas práticas de desenvolvimento de extensões:
 
 bootcamp2-chrome-ext-VictorBAlencar/
-├─ icons/              # Ícones da extensão (16, 32, 48, 128px)
+├─ icons/              
 ├─ src/
 │  ├─ background/
 │  │  └─ service-worker.js
@@ -54,12 +52,12 @@ bootcamp2-chrome-ext-VictorBAlencar/
 │  │  └─ popup.css
 │  └─ styles/
 │     └─ zen-style.css
-├─ docs/               # Arquivos para o GitHub Pages
+├─ docs/               
 │  ├─ images/
 │  └─ index.html
-├─ manifest.json       # O coração da extensão
-├─ README.md           # Este arquivo
-└─ LICENSE             # Licença MIT
+├─ manifest.json       
+├─ README.md           
+└─ LICENSE             
 
 ---
 
