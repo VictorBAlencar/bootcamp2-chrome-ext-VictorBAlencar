@@ -1,0 +1,15 @@
+{
+  "name": "leitor-zen-ci",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline for Leitor Zen Chrome Extension",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-extension.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run build && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "archiver": "^7.0.1"
+  }
+}
