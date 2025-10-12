@@ -1,0 +1,11 @@
+services:
+  e2e:
+    build: .
+    image: victorbalencar/leitor-zen-e2e:latest
+    environment:
+      - CI=true
+    volumes:
+      # Mapeia o relatório para a máquina local
+      - ./playwright-report:/app/playwright-report
+    # Essencial para evitar falhas do Chromium
+    shm_size: '2gb'
