@@ -34,32 +34,6 @@ Como esta extensão não está na Chrome Web Store, ela pode ser instalada manua
 
 ---
 
-## Estrutura do Projeto
-
-O repositório está organizado da seguinte forma para seguir as boas práticas de desenvolvimento de extensões:
-
-bootcamp2-chrome-ext-VictorBAlencar/
-├─ icons/              
-├─ src/
-│  ├─ background/
-│  │  └─ service-worker.js
-│  ├─ content/
-│  │  └─ content.js
-│  ├─ popup/
-│  │  ├─ popup.html
-│  │  ├─ popup.js
-│  │  └─ popup.css
-│  └─ styles/
-│     └─ zen-style.css
-├─ docs/               
-│  ├─ images/
-│  └─ index.html
-├─ manifest.json       
-├─ README.md           
-└─ LICENSE             
-
----
-
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
